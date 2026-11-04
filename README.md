@@ -8,10 +8,14 @@ don't delete it).
 |---|---|---|
 | `windows/appcast.xml` (+ `.signature`) | AlfaSign for Windows, x64 (NetSparkle) | AlfaSignWindows GitLab CI on `win-v*` tags |
 | `windows/appcast-arm64.xml` (+ `.signature`) | AlfaSign for Windows, ARM64 | same |
+| `windows/token/appcast.xml` (+ `.signature`) | Reînnoire certificat AlfaSign (token app, portable exe; NetSparkle) | ReinnoireOnline GitLab CI on `win-token-v*` tags |
+| `windows/token/test/appcast.xml` (+ `.signature`) | same, test channel | same, on `win-token-test-v*` tags (pre-releases) |
 | `macos/appcast.xml` | AlfaSign for macOS (Sparkle) | macOS release pipeline on `mac-v*` tags |
 
 Installers are attached to this repo's GitHub Releases: `win-v<version>` for
-Windows, `mac-v<version>` for macOS.
+Windows, `mac-v<version>` for macOS. The token app's exe is attached to
+`win-token-v<version>` (and `win-token-test-v<version>`, a pre-release).
+`windows/token/` belongs to the token app's pipeline, not AlfaSign for Windows'.
 
 ## Rules
 
