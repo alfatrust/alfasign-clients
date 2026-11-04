@@ -1,0 +1,2 @@
+# Appcasts are Ed25519-signed byte-for-byte: never let git rewrite line endings.
+* -text

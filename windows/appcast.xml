@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>AlfaSign</title>
+    <description>Most recent changes with links to updates</description>
+    <language>en</language>
+    <item>
+      <title>AlfaSign 1.2.1</title>
+      <pubDate>Fri, 26 Jun 2026 15:26:55 +03:00</pubDate>
+      <sparkle:version>1.2.1</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <enclosure url="https://github.com/tvalfa/windows-versions/releases/download/win-v1.2.1/AlfaSign-Setup-1.2.1.exe" sparkle:version="1.2.1" sparkle:shortVersionString="1.2.1" length="9659704" sparkle:os="windows" type="application/x-msdos-program" sparkle:criticalUpdate="false" sparkle:signature="6vUtzIByq9N1W/Mmh1kiccsASMTWh15aE0JtofF9POUJAErUt94zFo7mQ91y65Jyk+rsUY/DLSVVNzJRX5M5AQ==" />
+    </item>
+  </channel>
+</rss>
